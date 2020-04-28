@@ -2,11 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+// Also include time.h for rand() seeding
 #include <time.h> 
 
 // Include the main libnx system header, for Switch development
 #include <switch.h>
 
+// initialize printRandoms
 void printRandoms(int lower, int upper, int count) 
 { 
     int i; 
@@ -20,14 +23,9 @@ void printRandoms(int lower, int upper, int count)
 // Main program entrypoint
 int main(int argc, char* argv[])
 {
-    // This example uses a text console, as a simple way to output text to the screen.
-    // If you want to write a software-rendered graphics application,
-    //   take a look at the graphics/simplegfx example, which uses the libnx Framebuffer API instead.
-    // If on the other hand you want to write an OpenGL based application,
-    //   take a look at the graphics/opengl set of examples, which uses EGL instead.
     consoleInit(NULL);
 
-    // Other initialization goes here. As a demonstration, we print hello world.
+    // Other initialization goes here. Print the user interface:
     printf("Please press 'A' button to play a random game, or + to exit gracefully.\n");
 
     int lower = 1, upper = 128, count = 1; 
@@ -46,7 +44,7 @@ int main(int argc, char* argv[])
         if (kDown & KEY_PLUS)
             break; // break in order to return to hbmenu
 
-        // Your code goes here
+        // The main code goes here
         if (kDown & KEY_A)
         printRandoms(lower, upper, count); 
 
