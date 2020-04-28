@@ -44,6 +44,10 @@ DATA		:=	data
 INCLUDES	:=	include
 #ROMFS	:=	romfs
 
+APP_TITLE   := RandPlayNX
+APP_AUTHOR  := b2626129
+APP_VERSION := 0.0.1
+
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
