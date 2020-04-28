@@ -9,7 +9,7 @@
 // Include the main libnx system header, for Switch development
 #include <switch.h>
 
-// initialize printRandoms
+// initialize printRandoms pointer
 void printRandoms(int lower, int upper, int count) 
 { 
     int i; 
@@ -28,6 +28,7 @@ int main(int argc, char* argv[])
     // Other initialization goes here. Print the user interface:
     printf("Please press 'A' button to play a random game, or + to exit gracefully.\n");
 
+    // Setting up random and the random seed:
     int lower = 1, upper = 128, count = 1; 
     srand(time(0)); 
 
