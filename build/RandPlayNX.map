@@ -4814,459 +4814,458 @@ Linker script and memory map
  .nx-module-name
                 0x0000000000023000       0x13 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.rodata         0x0000000000023018     0x90c0
+.rodata         0x0000000000023018     0x90f8
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.str1.8
-                0x0000000000023018        0xd main.o
- *fill*         0x0000000000023025        0x3 
+                0x0000000000023018       0x48 main.o
  .rodata.CSWTCH.526
-                0x0000000000023028       0x14 C:/devkitPro_sw/libnx/lib\libnx.a(applet.o)
- *fill*         0x000000000002303c        0x4 
- .rodata        0x0000000000023040       0x24 C:/devkitPro_sw/libnx/lib\libnx.a(hid.o)
- *fill*         0x0000000000023064        0x4 
+                0x0000000000023060       0x14 C:/devkitPro_sw/libnx/lib\libnx.a(applet.o)
+ *fill*         0x0000000000023074        0x4 
+ .rodata        0x0000000000023078       0x24 C:/devkitPro_sw/libnx/lib\libnx.a(hid.o)
+ *fill*         0x000000000002309c        0x4 
  .rodata.smInitialize.str1.8
-                0x0000000000023068        0x4 C:/devkitPro_sw/libnx/lib\libnx.a(sm.o)
- *fill*         0x000000000002306c        0x4 
+                0x00000000000230a0        0x4 C:/devkitPro_sw/libnx/lib\libnx.a(sm.o)
+ *fill*         0x00000000000230a4        0x4 
  .rodata.con_write.str1.8
-                0x0000000000023070       0x56 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
- *fill*         0x00000000000230c6        0x2 
+                0x00000000000230a8       0x56 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
+ *fill*         0x00000000000230fe        0x2 
  .rodata.con_write
-                0x00000000000230c8       0x64 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
- *fill*         0x000000000002312c        0x4 
+                0x0000000000023100       0x64 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
+ *fill*         0x0000000000023164        0x4 
  .rodata.str1.8
-                0x0000000000023130       0x14 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
- *fill*         0x0000000000023144        0x4 
+                0x0000000000023168       0x14 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
+ *fill*         0x000000000002317c        0x4 
  .rodata.colorTable
-                0x0000000000023148       0x30 C:/devkitPro_sw/libnx/lib\libnx.a(console_sw.o)
- .rodata        0x0000000000023178     0x2004 C:/devkitPro_sw/libnx/lib\libnx.a(default_font.bin.o)
-                0x0000000000023178                default_font_bin
-                0x0000000000025178                default_font_bin_size
-                0x0000000000025178                default_font_bin_end
- *fill*         0x000000000002517c        0x4 
+                0x0000000000023180       0x30 C:/devkitPro_sw/libnx/lib\libnx.a(console_sw.o)
+ .rodata        0x00000000000231b0     0x2004 C:/devkitPro_sw/libnx/lib\libnx.a(default_font.bin.o)
+                0x00000000000231b0                default_font_bin
+                0x00000000000251b0                default_font_bin_size
+                0x00000000000251b0                default_font_bin_end
+ *fill*         0x00000000000251b4        0x4 
  .rodata.g_nvColorFmtTable
-                0x0000000000025180       0x38 C:/devkitPro_sw/libnx/lib\libnx.a(framebuffer.o)
+                0x00000000000251b8       0x38 C:/devkitPro_sw/libnx/lib\libnx.a(framebuffer.o)
  .rodata.__nx_win_init.str1.8
-                0x00000000000251b8        0x8 C:/devkitPro_sw/libnx/lib\libnx.a(default_window.o)
+                0x00000000000251f0        0x8 C:/devkitPro_sw/libnx/lib\libnx.a(default_window.o)
  .rodata.__libnx_init_time.str1.8
-                0x00000000000251c0        0xb C:/devkitPro_sw/libnx/lib\libnx.a(newlib.o)
- *fill*         0x00000000000251cb        0x5 
+                0x00000000000251f8        0xb C:/devkitPro_sw/libnx/lib\libnx.a(newlib.o)
+ *fill*         0x0000000000025203        0x5 
  .rodata.fsdev_getfspath.str1.8
-                0x00000000000251d0        0x2 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
- *fill*         0x00000000000251d2        0x6 
+                0x0000000000025208        0x2 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
+ *fill*         0x000000000002520a        0x6 
  .rodata._fsdevUnmountDeviceStruct.part.0.str1.8
-                0x00000000000251d8        0x2 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
- *fill*         0x00000000000251da        0x6 
+                0x0000000000025210        0x2 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
+ *fill*         0x0000000000025212        0x6 
  .rodata.fsdevMountDevice.str1.8
-                0x00000000000251e0        0x8 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
+                0x0000000000025218        0x8 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
                                          0x10 (size before relaxing)
  .rodata.fsdevMountSdmc.str1.8
-                0x00000000000251e8        0x5 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
- *fill*         0x00000000000251ed        0x3 
+                0x0000000000025220        0x5 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
+ *fill*         0x0000000000025225        0x3 
  .rodata.error_table
-                0x00000000000251f0       0x20 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
+                0x0000000000025228       0x20 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
  .rodata.nvFenceInit.str1.8
-                0x0000000000025210       0x11 C:/devkitPro_sw/libnx/lib\libnx.a(fence.o)
- *fill*         0x0000000000025221        0x7 
+                0x0000000000025248       0x11 C:/devkitPro_sw/libnx/lib\libnx.a(fence.o)
+ *fill*         0x0000000000025259        0x7 
  .rodata.nvMapInit.str1.8
-                0x0000000000025228        0xb C:/devkitPro_sw/libnx/lib\libnx.a(map.o)
- *fill*         0x0000000000025233        0x5 
+                0x0000000000025260        0xb C:/devkitPro_sw/libnx/lib\libnx.a(map.o)
+ *fill*         0x000000000002526b        0x5 
  .rodata.g_bq_InterfaceDescriptor
-                0x0000000000025238       0x23 C:/devkitPro_sw/libnx/lib\libnx.a(buffer_producer.o)
- *fill*         0x000000000002525b        0x5 
+                0x0000000000025270       0x23 C:/devkitPro_sw/libnx/lib\libnx.a(buffer_producer.o)
+ *fill*         0x0000000000025293        0x5 
  .rodata.nxlinkSetup.str1.8
-                0x0000000000025260        0x9 C:/devkitPro_sw/libnx/lib\libnx.a(nxlink.o)
- *fill*         0x0000000000025269        0x7 
+                0x0000000000025298        0x9 C:/devkitPro_sw/libnx/lib\libnx.a(nxlink.o)
+ *fill*         0x00000000000252a1        0x7 
  .rodata._ctype_
-                0x0000000000025270      0x101 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-ctype_.o)
-                0x0000000000025270                _ctype_
- *fill*         0x0000000000025371        0x7 
+                0x00000000000252a8      0x101 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-ctype_.o)
+                0x00000000000252a8                _ctype_
+ *fill*         0x00000000000253a9        0x7 
  .rodata._puts_r.str1.8
-                0x0000000000025378        0x2 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-puts.o)
+                0x00000000000253b0        0x2 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-puts.o)
  .rodata.__ssvfscanf_r.str1.1
-                0x000000000002537a        0x5 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
+                0x00000000000253b2        0x5 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
                                           0x6 (size before relaxing)
- *fill*         0x000000000002537f        0x1 
+ *fill*         0x00000000000253b7        0x1 
  .rodata.__ssvfscanf_r
-                0x0000000000025380       0xe7 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
- *fill*         0x0000000000025467        0x1 
+                0x00000000000253b8       0xe7 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
+ *fill*         0x000000000002549f        0x1 
  .rodata.basefix.6725
-                0x0000000000025468       0x22 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
- *fill*         0x000000000002548a        0x6 
+                0x00000000000254a0       0x22 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
+ *fill*         0x00000000000254c2        0x6 
  .rodata._dtoa_r.str1.8
-                0x0000000000025490       0x1a c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-dtoa.o)
- *fill*         0x00000000000254aa        0x6 
- .rodata.cst8   0x00000000000254b0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-dtoa.o)
+                0x00000000000254c8       0x1a c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-dtoa.o)
+ *fill*         0x00000000000254e2        0x6 
+ .rodata.cst8   0x00000000000254e8       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-dtoa.o)
  .rodata.str1.8
-                0x00000000000254c8       0x5c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-locale.o)
+                0x0000000000025500       0x5c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-locale.o)
                                          0x64 (size before relaxing)
  .rodata._mbrtowc_r.str1.8
-                0x0000000000025524        0x1 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mbrtowc.o)
- *fill*         0x0000000000025524        0x4 
+                0x000000000002555c        0x1 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mbrtowc.o)
+ *fill*         0x000000000002555c        0x4 
  .rodata.__mprec_bigtens
-                0x0000000000025528       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
-                0x0000000000025528                __mprec_bigtens
+                0x0000000000025560       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
+                0x0000000000025560                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000000000025550       0xc8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
-                0x0000000000025550                __mprec_tens
+                0x0000000000025588       0xc8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
+                0x0000000000025588                __mprec_tens
  .rodata.p05.5441
-                0x0000000000025618        0xc c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
- *fill*         0x0000000000025624        0x4 
+                0x0000000000025650        0xc c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
+ *fill*         0x000000000002565c        0x4 
  .rodata._strtod_l.str1.8
-                0x0000000000025628       0x13 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
+                0x0000000000025660       0x13 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
                                          0x19 (size before relaxing)
- *fill*         0x000000000002563b        0x5 
- .rodata.cst8   0x0000000000025640       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
+ *fill*         0x0000000000025673        0x5 
+ .rodata.cst8   0x0000000000025678       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
  .rodata.fpi.5521
-                0x0000000000025658       0x14 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
- *fill*         0x000000000002566c        0x4 
+                0x0000000000025690       0x14 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
+ *fill*         0x00000000000256a4        0x4 
  .rodata.fpinan.5557
-                0x0000000000025670       0x14 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
- *fill*         0x0000000000025684        0x4 
+                0x00000000000256a8       0x14 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
+ *fill*         0x00000000000256bc        0x4 
  .rodata.tinytens
-                0x0000000000025688       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
+                0x00000000000256c0       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
  .rodata.__action_table
-                0x00000000000256b0       0x6c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
-                0x00000000000256b0                __action_table
- *fill*         0x000000000002571c        0x4 
+                0x00000000000256e8       0x6c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
+                0x00000000000256e8                __action_table
+ *fill*         0x0000000000025754        0x4 
  .rodata.__chclass
-                0x0000000000025720      0x100 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
-                0x0000000000025720                __chclass
+                0x0000000000025758      0x100 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
+                0x0000000000025758                __chclass
  .rodata.__state_table
-                0x0000000000025820       0x6c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
-                0x0000000000025820                __state_table
+                0x0000000000025858       0x6c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
+                0x0000000000025858                __state_table
  .rodata.get_arg
-                0x000000000002588c       0x92 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
+                0x00000000000258c4       0x92 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
  .rodata._svfprintf_r.str1.1
-                0x000000000002591e       0x3b c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
- *fill*         0x0000000000025959        0x3 
+                0x0000000000025956       0x3b c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
+ *fill*         0x0000000000025991        0x3 
  .rodata._svfprintf_r
-                0x000000000002595c       0xb6 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
- *fill*         0x0000000000025a12        0x6 
+                0x0000000000025994       0xb6 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
+ *fill*         0x0000000000025a4a        0x6 
  .rodata.blanks.6692
-                0x0000000000025a18       0x10 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
+                0x0000000000025a50       0x10 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
  .rodata.zeroes.6693
-                0x0000000000025a28       0x10 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
+                0x0000000000025a60       0x10 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
  .rodata.__hexdig
-                0x0000000000025a38      0x100 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gdtoa-gethex.o)
-                0x0000000000025a38                __hexdig
+                0x0000000000025a70      0x100 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gdtoa-gethex.o)
+                0x0000000000025a70                __hexdig
  .rodata._jp2uc_l.str1.8
-                0x0000000000025b38       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+                0x0000000000025b70       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
                                          0x16 (size before relaxing)
- .rodata.a1     0x0000000000025b50       0xbc c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- *fill*         0x0000000000025c0c        0x4 
- .rodata.a2     0x0000000000025c10       0xbc c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- *fill*         0x0000000000025ccc        0x4 
- .rodata.a3     0x0000000000025cd0       0x5b c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- *fill*         0x0000000000025d2b        0x5 
- .rodata.a6     0x0000000000025d30       0x70 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- .rodata.a7     0x0000000000025da0       0xa2 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- *fill*         0x0000000000025e42        0x6 
- .rodata.a8     0x0000000000025e48       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- .rodata.b02cf  0x0000000000025e88     0x172a c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
- *fill*         0x00000000000275b2        0x6 
- .rodata.d02f4  0x00000000000275b8     0x1a7c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ .rodata.a1     0x0000000000025b88       0xbc c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ *fill*         0x0000000000025c44        0x4 
+ .rodata.a2     0x0000000000025c48       0xbc c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ *fill*         0x0000000000025d04        0x4 
+ .rodata.a3     0x0000000000025d08       0x5b c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ *fill*         0x0000000000025d63        0x5 
+ .rodata.a6     0x0000000000025d68       0x70 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ .rodata.a7     0x0000000000025dd8       0xa2 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ *fill*         0x0000000000025e7a        0x6 
+ .rodata.a8     0x0000000000025e80       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ .rodata.b02cf  0x0000000000025ec0     0x172a c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ *fill*         0x00000000000275ea        0x6 
+ .rodata.d02f4  0x00000000000275f0     0x1a7c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
  .rodata.str1.8
-                0x0000000000029034        0x9 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-lnumeric.o)
- *fill*         0x0000000000029034        0x4 
+                0x000000000002906c        0x9 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-lnumeric.o)
+ *fill*         0x000000000002906c        0x4 
  .rodata.categories
-                0x0000000000029038     0x309c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-categories.o)
+                0x0000000000029070     0x309c c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-categories.o)
  .rodata.AddDevice.str1.8
-                0x000000000002c0d4        0x8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(iosupport.o)
-                0x000000000002c0e0                . = ALIGN (0x8)
- *fill*         0x000000000002c0d4        0x4 
+                0x000000000002c10c        0x8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(iosupport.o)
+                0x000000000002c118                . = ALIGN (0x8)
+ *fill*         0x000000000002c10c        0x4 
 
-.eh_frame_hdr   0x000000000002c0d8        0x0
-                0x000000000002c0d8                __eh_frame_hdr_start = .
+.eh_frame_hdr   0x000000000002c110        0x0
+                0x000000000002c110                __eh_frame_hdr_start = .
  *(.eh_frame_hdr)
  *(.eh_frame_entry .eh_frame_entry.*)
-                0x000000000002c0d8                __eh_frame_hdr_end = .
+                0x000000000002c110                __eh_frame_hdr_end = .
 
-.eh_frame       0x000000000002c0d8     0x59e8
+.eh_frame       0x000000000002c110     0x59e8
  *(.eh_frame)
- .eh_frame      0x000000000002c0d8       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crtbegin.o
- .eh_frame      0x000000000002c158       0x20 main.o
+ .eh_frame      0x000000000002c110       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crtbegin.o
+ .eh_frame      0x000000000002c190       0x20 main.o
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002c178      0x640 C:/devkitPro_sw/libnx/lib\libnx.a(applet.o)
+ .eh_frame      0x000000000002c1b0      0x640 C:/devkitPro_sw/libnx/lib\libnx.a(applet.o)
                                        0x3dc8 (size before relaxing)
- .eh_frame      0x000000000002c7b8      0x2d0 C:/devkitPro_sw/libnx/lib\libnx.a(hid.o)
+ .eh_frame      0x000000000002c7f0      0x2d0 C:/devkitPro_sw/libnx/lib\libnx.a(hid.o)
                                         0xd50 (size before relaxing)
- .eh_frame      0x000000000002ca88       0xd8 C:/devkitPro_sw/libnx/lib\libnx.a(apm.o)
+ .eh_frame      0x000000000002cac0       0xd8 C:/devkitPro_sw/libnx/lib\libnx.a(apm.o)
                                         0x160 (size before relaxing)
- .eh_frame      0x000000000002cb60       0x80 C:/devkitPro_sw/libnx/lib\libnx.a(fatal.o)
+ .eh_frame      0x000000000002cb98       0x80 C:/devkitPro_sw/libnx/lib\libnx.a(fatal.o)
                                          0xa8 (size before relaxing)
- .eh_frame      0x000000000002cbe0      0x128 C:/devkitPro_sw/libnx/lib\libnx.a(sm.o)
+ .eh_frame      0x000000000002cc18      0x128 C:/devkitPro_sw/libnx/lib\libnx.a(sm.o)
                                         0x198 (size before relaxing)
- .eh_frame      0x000000000002cd08       0x28 C:/devkitPro_sw/libnx/lib\libnx.a(hosversion.o)
+ .eh_frame      0x000000000002cd40       0x28 C:/devkitPro_sw/libnx/lib\libnx.a(hosversion.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x000000000002cd30      0x100 C:/devkitPro_sw/libnx/lib\libnx.a(env.o)
+ .eh_frame      0x000000000002cd68      0x100 C:/devkitPro_sw/libnx/lib\libnx.a(env.o)
                                         0x200 (size before relaxing)
- .eh_frame      0x000000000002ce30      0x210 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
+ .eh_frame      0x000000000002ce68      0x210 C:/devkitPro_sw/libnx/lib\libnx.a(console.o)
                                         0x2e8 (size before relaxing)
- .eh_frame      0x000000000002d040      0x128 C:/devkitPro_sw/libnx/lib\libnx.a(console_sw.o)
+ .eh_frame      0x000000000002d078      0x128 C:/devkitPro_sw/libnx/lib\libnx.a(console_sw.o)
                                         0x140 (size before relaxing)
- .eh_frame      0x000000000002d168      0x1b8 C:/devkitPro_sw/libnx/lib\libnx.a(svc.o)
+ .eh_frame      0x000000000002d1a0      0x1b8 C:/devkitPro_sw/libnx/lib\libnx.a(svc.o)
                                         0x960 (size before relaxing)
- .eh_frame      0x000000000002d320       0x68 C:/devkitPro_sw/libnx/lib\libnx.a(detect.o)
+ .eh_frame      0x000000000002d358       0x68 C:/devkitPro_sw/libnx/lib\libnx.a(detect.o)
                                          0xd8 (size before relaxing)
- .eh_frame      0x000000000002d388       0xa0 C:/devkitPro_sw/libnx/lib\libnx.a(shmem.o)
+ .eh_frame      0x000000000002d3c0       0xa0 C:/devkitPro_sw/libnx/lib\libnx.a(shmem.o)
                                          0xc8 (size before relaxing)
- .eh_frame      0x000000000002d428       0x98 C:/devkitPro_sw/libnx/lib\libnx.a(wait.o)
+ .eh_frame      0x000000000002d460       0x98 C:/devkitPro_sw/libnx/lib\libnx.a(wait.o)
                                          0xc0 (size before relaxing)
- .eh_frame      0x000000000002d4c0       0xd0 C:/devkitPro_sw/libnx/lib\libnx.a(rwlock.o)
+ .eh_frame      0x000000000002d4f8       0xd0 C:/devkitPro_sw/libnx/lib\libnx.a(rwlock.o)
                                         0x180 (size before relaxing)
- .eh_frame      0x000000000002d590       0x90 C:/devkitPro_sw/libnx/lib\libnx.a(tmem.o)
+ .eh_frame      0x000000000002d5c8       0x90 C:/devkitPro_sw/libnx/lib\libnx.a(tmem.o)
                                         0x108 (size before relaxing)
- .eh_frame      0x000000000002d620       0x70 C:/devkitPro_sw/libnx/lib\libnx.a(mutex.o)
+ .eh_frame      0x000000000002d658       0x70 C:/devkitPro_sw/libnx/lib\libnx.a(mutex.o)
                                          0xc0 (size before relaxing)
- .eh_frame      0x000000000002d690       0xb8 C:/devkitPro_sw/libnx/lib\libnx.a(virtmem.o)
+ .eh_frame      0x000000000002d6c8       0xb8 C:/devkitPro_sw/libnx/lib\libnx.a(virtmem.o)
                                         0x120 (size before relaxing)
- .eh_frame      0x000000000002d748       0x60 C:/devkitPro_sw/libnx/lib\libnx.a(event.o)
+ .eh_frame      0x000000000002d780       0x60 C:/devkitPro_sw/libnx/lib\libnx.a(event.o)
                                          0xc0 (size before relaxing)
- .eh_frame      0x000000000002d7a8       0x30 C:/devkitPro_sw/libnx/lib\libnx.a(condvar.o)
+ .eh_frame      0x000000000002d7e0       0x30 C:/devkitPro_sw/libnx/lib\libnx.a(condvar.o)
                                          0x48 (size before relaxing)
- .eh_frame      0x000000000002d7d8      0x198 C:/devkitPro_sw/libnx/lib\libnx.a(framebuffer.o)
+ .eh_frame      0x000000000002d810      0x198 C:/devkitPro_sw/libnx/lib\libnx.a(framebuffer.o)
                                         0x1b0 (size before relaxing)
- .eh_frame      0x000000000002d970       0x60 C:/devkitPro_sw/libnx/lib\libnx.a(default_window.o)
+ .eh_frame      0x000000000002d9a8       0x60 C:/devkitPro_sw/libnx/lib\libnx.a(default_window.o)
                                          0x78 (size before relaxing)
- .eh_frame      0x000000000002d9d0      0x2c0 C:/devkitPro_sw/libnx/lib\libnx.a(native_window.o)
+ .eh_frame      0x000000000002da08      0x2c0 C:/devkitPro_sw/libnx/lib\libnx.a(native_window.o)
                                         0x400 (size before relaxing)
- .eh_frame      0x000000000002dc90       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(dynamic.o)
+ .eh_frame      0x000000000002dcc8       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(dynamic.o)
                                          0x30 (size before relaxing)
- .eh_frame      0x000000000002dca8       0xa0 C:/devkitPro_sw/libnx/lib\libnx.a(init.o)
+ .eh_frame      0x000000000002dce0       0xa0 C:/devkitPro_sw/libnx/lib\libnx.a(init.o)
                                          0xb8 (size before relaxing)
- .eh_frame      0x000000000002dd48       0xf8 C:/devkitPro_sw/libnx/lib\libnx.a(newlib.o)
+ .eh_frame      0x000000000002dd80       0xf8 C:/devkitPro_sw/libnx/lib\libnx.a(newlib.o)
                                         0x448 (size before relaxing)
- .eh_frame      0x000000000002de40       0xa8 C:/devkitPro_sw/libnx/lib\libnx.a(argv.o)
+ .eh_frame      0x000000000002de78       0xa8 C:/devkitPro_sw/libnx/lib\libnx.a(argv.o)
                                          0xb8 (size before relaxing)
- .eh_frame      0x000000000002dee8      0x6f8 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
+ .eh_frame      0x000000000002df20      0x6f8 C:/devkitPro_sw/libnx/lib\libnx.a(fs_dev.o)
                                         0xa10 (size before relaxing)
- .eh_frame      0x000000000002e5e0       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(decode_utf8.o)
+ .eh_frame      0x000000000002e618       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(decode_utf8.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x000000000002e5f8       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(cache.o)
+ .eh_frame      0x000000000002e630       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(cache.o)
                                          0x68 (size before relaxing)
- .eh_frame      0x000000000002e610       0x28 C:/devkitPro_sw/libnx/lib\libnx.a(exception.o)
+ .eh_frame      0x000000000002e648       0x28 C:/devkitPro_sw/libnx/lib\libnx.a(exception.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x000000000002e638       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(readtp.o)
+ .eh_frame      0x000000000002e670       0x18 C:/devkitPro_sw/libnx/lib\libnx.a(readtp.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x000000000002e650        0x0 C:/devkitPro_sw/libnx/lib\libnx.a(thread.o)
+ .eh_frame      0x000000000002e688        0x0 C:/devkitPro_sw/libnx/lib\libnx.a(thread.o)
                                         0x220 (size before relaxing)
- .eh_frame      0x000000000002e650      0x1c8 C:/devkitPro_sw/libnx/lib\libnx.a(nv.o)
+ .eh_frame      0x000000000002e688      0x1c8 C:/devkitPro_sw/libnx/lib\libnx.a(nv.o)
                                         0x220 (size before relaxing)
- .eh_frame      0x000000000002e818      0x188 C:/devkitPro_sw/libnx/lib\libnx.a(time.o)
+ .eh_frame      0x000000000002e850      0x188 C:/devkitPro_sw/libnx/lib\libnx.a(time.o)
                                         0x3a0 (size before relaxing)
- .eh_frame      0x000000000002e9a0      0x2b0 C:/devkitPro_sw/libnx/lib\libnx.a(vi.o)
+ .eh_frame      0x000000000002e9d8      0x2b0 C:/devkitPro_sw/libnx/lib\libnx.a(vi.o)
                                         0x680 (size before relaxing)
- .eh_frame      0x000000000002ec50       0xd8 C:/devkitPro_sw/libnx/lib\libnx.a(set.o)
+ .eh_frame      0x000000000002ec88       0xd8 C:/devkitPro_sw/libnx/lib\libnx.a(set.o)
                                        0x2978 (size before relaxing)
- .eh_frame      0x000000000002ed28      0x560 C:/devkitPro_sw/libnx/lib\libnx.a(fs.o)
+ .eh_frame      0x000000000002ed60      0x560 C:/devkitPro_sw/libnx/lib\libnx.a(fs.o)
                                        0x1330 (size before relaxing)
- .eh_frame      0x000000000002f288      0x148 C:/devkitPro_sw/libnx/lib\libnx.a(fence.o)
+ .eh_frame      0x000000000002f2c0      0x148 C:/devkitPro_sw/libnx/lib\libnx.a(fence.o)
                                         0x158 (size before relaxing)
- .eh_frame      0x000000000002f3d0      0x100 C:/devkitPro_sw/libnx/lib\libnx.a(map.o)
+ .eh_frame      0x000000000002f408      0x100 C:/devkitPro_sw/libnx/lib\libnx.a(map.o)
                                         0x160 (size before relaxing)
- .eh_frame      0x000000000002f4d0       0xa8 C:/devkitPro_sw/libnx/lib\libnx.a(nvhost-ctrl.o)
+ .eh_frame      0x000000000002f508       0xa8 C:/devkitPro_sw/libnx/lib\libnx.a(nvhost-ctrl.o)
                                         0x120 (size before relaxing)
- .eh_frame      0x000000000002f578       0x88 C:/devkitPro_sw/libnx/lib\libnx.a(nvmap.o)
+ .eh_frame      0x000000000002f5b0       0x88 C:/devkitPro_sw/libnx/lib\libnx.a(nvmap.o)
                                          0xe8 (size before relaxing)
- .eh_frame      0x000000000002f600      0x210 C:/devkitPro_sw/libnx/lib\libnx.a(buffer_producer.o)
+ .eh_frame      0x000000000002f638      0x210 C:/devkitPro_sw/libnx/lib\libnx.a(buffer_producer.o)
                                         0x2a8 (size before relaxing)
- .eh_frame      0x000000000002f810      0x1a8 C:/devkitPro_sw/libnx/lib\libnx.a(binder.o)
+ .eh_frame      0x000000000002f848      0x1a8 C:/devkitPro_sw/libnx/lib\libnx.a(binder.o)
                                         0x1c0 (size before relaxing)
- .eh_frame      0x000000000002f9b8      0x240 C:/devkitPro_sw/libnx/lib\libnx.a(parcel.o)
+ .eh_frame      0x000000000002f9f0      0x240 C:/devkitPro_sw/libnx/lib\libnx.a(parcel.o)
                                         0x270 (size before relaxing)
- .eh_frame      0x000000000002fbf8       0x50 C:/devkitPro_sw/libnx/lib\libnx.a(nxlink.o)
+ .eh_frame      0x000000000002fc30       0x50 C:/devkitPro_sw/libnx/lib\libnx.a(nxlink.o)
                                          0x68 (size before relaxing)
- .eh_frame      0x000000000002fc48      0x118 C:/devkitPro_sw/libnx/lib\libnx.a(sessionmgr.o)
+ .eh_frame      0x000000000002fc80      0x118 C:/devkitPro_sw/libnx/lib\libnx.a(sessionmgr.o)
                                         0x128 (size before relaxing)
- .eh_frame      0x000000000002fd60       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-aligned_alloc.o)
+ .eh_frame      0x000000000002fd98       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-aligned_alloc.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002fd80       0x68 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-bsearch.o)
+ .eh_frame      0x000000000002fdb8       0x68 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-bsearch.o)
                                          0x78 (size before relaxing)
- .eh_frame      0x000000000002fde8       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-calloc.o)
+ .eh_frame      0x000000000002fe20       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-calloc.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002fe10       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-callocr.o)
+ .eh_frame      0x000000000002fe48       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-callocr.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x000000000002fe40        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-ctype_.o)
+ .eh_frame      0x000000000002fe78        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-ctype_.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x000000000002fe40       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-errno.o)
+ .eh_frame      0x000000000002fe78       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-errno.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002fe60       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-exit.o)
+ .eh_frame      0x000000000002fe98       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-exit.o)
                                          0x30 (size before relaxing)
- .eh_frame      0x000000000002fe80       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fini.o)
+ .eh_frame      0x000000000002feb8       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fini.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002fea8       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gmtime.o)
+ .eh_frame      0x000000000002fee0       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gmtime.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002fed0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gmtime_r.o)
+ .eh_frame      0x000000000002ff08       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gmtime_r.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x000000000002fee8       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-init.o)
+ .eh_frame      0x000000000002ff20       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-init.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x000000000002ff10       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-malign.o)
+ .eh_frame      0x000000000002ff48       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-malign.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x000000000002ff38       0x50 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-malignr.o)
+ .eh_frame      0x000000000002ff70       0x50 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-malignr.o)
                                          0x60 (size before relaxing)
- .eh_frame      0x000000000002ff88       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-malloc.o)
+ .eh_frame      0x000000000002ffc0       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-malloc.o)
                                          0x60 (size before relaxing)
- .eh_frame      0x000000000002ffd0       0xd0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mallocr.o)
+ .eh_frame      0x0000000000030008       0xd0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mallocr.o)
                                          0xe0 (size before relaxing)
- .eh_frame      0x00000000000300a0       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mlock.o)
+ .eh_frame      0x00000000000300d8       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mlock.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x00000000000300c8        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-printf.o)
+ .eh_frame      0x0000000000030100        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-printf.o)
                                          0x58 (size before relaxing)
- .eh_frame      0x00000000000300c8       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-puts.o)
+ .eh_frame      0x0000000000030100       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-puts.o)
                                          0x70 (size before relaxing)
- .eh_frame      0x0000000000030120       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-setenv.o)
+ .eh_frame      0x0000000000030158       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-setenv.o)
                                          0x60 (size before relaxing)
- .eh_frame      0x0000000000030148       0x78 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-setenv_r.o)
+ .eh_frame      0x0000000000030180       0x78 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-setenv_r.o)
                                          0xc8 (size before relaxing)
- .eh_frame      0x00000000000301c0       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-setvbuf.o)
+ .eh_frame      0x00000000000301f8       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-setvbuf.o)
                                          0x68 (size before relaxing)
- .eh_frame      0x0000000000030218       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sscanf.o)
+ .eh_frame      0x0000000000030250       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sscanf.o)
                                          0x60 (size before relaxing)
- .eh_frame      0x0000000000030240       0xb0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-stdio.o)
+ .eh_frame      0x0000000000030278       0xb0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-stdio.o)
                                          0xc8 (size before relaxing)
- .eh_frame      0x00000000000302f0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strncat.o)
+ .eh_frame      0x0000000000030328       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strncat.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030308       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strncpy.o)
+ .eh_frame      0x0000000000030340       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strncpy.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030320       0x70 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtoul.o)
+ .eh_frame      0x0000000000030358       0x70 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtoul.o)
                                          0xa8 (size before relaxing)
- .eh_frame      0x0000000000030390       0x68 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
+ .eh_frame      0x00000000000303c8       0x68 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfscanf.o)
                                          0x80 (size before relaxing)
- .eh_frame      0x00000000000303f8        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-vfprintf.o)
+ .eh_frame      0x0000000000030430        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-vfprintf.o)
                                         0x118 (size before relaxing)
- .eh_frame      0x00000000000303f8       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wcrtomb.o)
+ .eh_frame      0x0000000000030430       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wcrtomb.o)
                                          0x88 (size before relaxing)
- .eh_frame      0x0000000000030430       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wcsrtombs.o)
+ .eh_frame      0x0000000000030468       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wcsrtombs.o)
                                          0x58 (size before relaxing)
- .eh_frame      0x0000000000030448       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wsetup.o)
+ .eh_frame      0x0000000000030480       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wsetup.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x0000000000030470       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-__call_atexit.o)
+ .eh_frame      0x00000000000304a8       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-__call_atexit.o)
                                          0x70 (size before relaxing)
- .eh_frame      0x00000000000304c8       0xa0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-dtoa.o)
+ .eh_frame      0x0000000000030500       0xa0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-dtoa.o)
                                          0xb0 (size before relaxing)
- .eh_frame      0x0000000000030568       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-envlock.o)
+ .eh_frame      0x00000000000305a0       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-envlock.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x0000000000030590       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fflush.o)
+ .eh_frame      0x00000000000305c8       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fflush.o)
                                          0xb8 (size before relaxing)
- .eh_frame      0x0000000000030610       0xb0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-findfp.o)
+ .eh_frame      0x0000000000030648       0xb0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-findfp.o)
                                         0x1a8 (size before relaxing)
- .eh_frame      0x00000000000306c0       0x90 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-freer.o)
+ .eh_frame      0x00000000000306f8       0x90 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-freer.o)
                                          0xa0 (size before relaxing)
- .eh_frame      0x0000000000030750       0xc0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fvwrite.o)
+ .eh_frame      0x0000000000030788       0xc0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fvwrite.o)
                                          0xd0 (size before relaxing)
- .eh_frame      0x0000000000030810       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fwalk.o)
+ .eh_frame      0x0000000000030848       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fwalk.o)
                                          0x78 (size before relaxing)
- .eh_frame      0x0000000000030848       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-getenv_r.o)
+ .eh_frame      0x0000000000030880       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-getenv_r.o)
                                          0x90 (size before relaxing)
- .eh_frame      0x00000000000308a0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-iswspace.o)
+ .eh_frame      0x00000000000308d8       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-iswspace.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x00000000000308b8       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-localeconv.o)
+ .eh_frame      0x00000000000308f0       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-localeconv.o)
                                          0x68 (size before relaxing)
- .eh_frame      0x00000000000308f0       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-locale.o)
+ .eh_frame      0x0000000000030928       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-locale.o)
                                         0x228 (size before relaxing)
- .eh_frame      0x0000000000030910       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-makebuf.o)
+ .eh_frame      0x0000000000030948       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-makebuf.o)
                                          0x98 (size before relaxing)
- .eh_frame      0x0000000000030990       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mbrtowc.o)
+ .eh_frame      0x00000000000309c8       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mbrtowc.o)
                                          0x90 (size before relaxing)
- .eh_frame      0x00000000000309d0       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mbtowc_r.o)
+ .eh_frame      0x0000000000030a08       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mbtowc_r.o)
                                         0x118 (size before relaxing)
- .eh_frame      0x0000000000030a00      0x2f0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
+ .eh_frame      0x0000000000030a38      0x2f0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-mprec.o)
                                         0x318 (size before relaxing)
- .eh_frame      0x0000000000030cf0       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-realloc.o)
+ .eh_frame      0x0000000000030d28       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-realloc.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x0000000000030d18       0xf0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-reallocr.o)
+ .eh_frame      0x0000000000030d50       0xf0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-reallocr.o)
                                         0x108 (size before relaxing)
- .eh_frame      0x0000000000030e08       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sccl.o)
+ .eh_frame      0x0000000000030e40       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sccl.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e20       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sf_nan.o)
+ .eh_frame      0x0000000000030e58       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sf_nan.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e38       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-s_frexp.o)
+ .eh_frame      0x0000000000030e70       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-s_frexp.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e50       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sprintf.o)
+ .eh_frame      0x0000000000030e88       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-sprintf.o)
                                          0x58 (size before relaxing)
- .eh_frame      0x0000000000030e78       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-stpncpy.o)
+ .eh_frame      0x0000000000030eb0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-stpncpy.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e90        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strcasecmp.o)
+ .eh_frame      0x0000000000030ec8        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strcasecmp.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e90        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strcat.o)
+ .eh_frame      0x0000000000030ec8        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strcat.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x0000000000030e90        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strlcpy.o)
+ .eh_frame      0x0000000000030ec8        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strlcpy.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e90        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strncasecmp.o)
+ .eh_frame      0x0000000000030ec8        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strncasecmp.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000030e90      0x240 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
+ .eh_frame      0x0000000000030ec8      0x240 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtod.o)
                                         0x320 (size before relaxing)
- .eh_frame      0x00000000000310d0       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtoll.o)
+ .eh_frame      0x0000000000031108       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtoll.o)
                                          0xa8 (size before relaxing)
- .eh_frame      0x0000000000031110       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtol.o)
+ .eh_frame      0x0000000000031148       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtol.o)
                                          0xa8 (size before relaxing)
- .eh_frame      0x0000000000031150       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtoull.o)
+ .eh_frame      0x0000000000031188       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-strtoull.o)
                                          0xa8 (size before relaxing)
- .eh_frame      0x0000000000031190       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
+ .eh_frame      0x00000000000311c8       0x40 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiprintf.o)
                                          0xf0 (size before relaxing)
- .eh_frame      0x00000000000311d0       0x88 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiscanf.o)
+ .eh_frame      0x0000000000031208       0x88 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfiscanf.o)
                                         0x100 (size before relaxing)
- .eh_frame      0x0000000000031258       0xa8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
+ .eh_frame      0x0000000000031290       0xa8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-svfprintf.o)
                                          0xc0 (size before relaxing)
- .eh_frame      0x0000000000031300       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-ungetc.o)
+ .eh_frame      0x0000000000031338       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-ungetc.o)
                                          0xd8 (size before relaxing)
- .eh_frame      0x0000000000031348        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-vfiprintf.o)
+ .eh_frame      0x0000000000031380        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-vfiprintf.o)
                                         0x130 (size before relaxing)
- .eh_frame      0x0000000000031348      0x108 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wcsnrtombs.o)
+ .eh_frame      0x0000000000031380      0x108 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wcsnrtombs.o)
                                         0x150 (size before relaxing)
- .eh_frame      0x0000000000031450       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wctomb_r.o)
+ .eh_frame      0x0000000000031488       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-wctomb_r.o)
                                          0xa8 (size before relaxing)
- .eh_frame      0x0000000000031468       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fclose.o)
+ .eh_frame      0x00000000000314a0       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-fclose.o)
                                          0x90 (size before relaxing)
- .eh_frame      0x00000000000314c0       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gdtoa-gethex.o)
+ .eh_frame      0x00000000000314f8       0x80 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gdtoa-gethex.o)
                                          0x90 (size before relaxing)
- .eh_frame      0x0000000000031540       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gdtoa-hexnan.o)
+ .eh_frame      0x0000000000031578       0x28 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-gdtoa-hexnan.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x0000000000031568       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-iswspace_l.o)
+ .eh_frame      0x00000000000315a0       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-iswspace_l.o)
                                          0x40 (size before relaxing)
- .eh_frame      0x0000000000031598       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
+ .eh_frame      0x00000000000315d0       0x58 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-jp2uc.o)
                                          0xb8 (size before relaxing)
- .eh_frame      0x00000000000315f0        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-lnumeric.o)
+ .eh_frame      0x0000000000031628        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-lnumeric.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x00000000000315f0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-s_nan.o)
+ .eh_frame      0x0000000000031628       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-s_nan.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000031608       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-categories.o)
+ .eh_frame      0x0000000000031640       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libg.a(lib_a-categories.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000031620      0x120 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(iosupport.o)
+ .eh_frame      0x0000000000031658      0x120 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(iosupport.o)
                                         0x130 (size before relaxing)
- .eh_frame      0x0000000000031740       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(close.o)
+ .eh_frame      0x0000000000031778       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(close.o)
                                          0x58 (size before relaxing)
- .eh_frame      0x0000000000031788       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(fstat.o)
+ .eh_frame      0x00000000000317c0       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(fstat.o)
                                          0x48 (size before relaxing)
- .eh_frame      0x00000000000317b8       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(isatty.o)
+ .eh_frame      0x00000000000317f0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(isatty.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x00000000000317d0       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(lseek.o)
+ .eh_frame      0x0000000000031808       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(lseek.o)
                                          0x48 (size before relaxing)
- .eh_frame      0x0000000000031808       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(read.o)
+ .eh_frame      0x0000000000031840       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(read.o)
                                          0x50 (size before relaxing)
- .eh_frame      0x0000000000031840       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(sbrk.o)
+ .eh_frame      0x0000000000031878       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(sbrk.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000031858       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(write.o)
+ .eh_frame      0x0000000000031890       0x38 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(write.o)
                                          0x50 (size before relaxing)
- .eh_frame      0x0000000000031890       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(_exit.o)
+ .eh_frame      0x00000000000318c8       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(_exit.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x00000000000318b0       0xc8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(chdir.o)
+ .eh_frame      0x00000000000318e8       0xc8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(chdir.o)
                                         0x120 (size before relaxing)
- .eh_frame      0x0000000000031978       0x78 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(locks.o)
+ .eh_frame      0x00000000000319b0       0x78 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(locks.o)
                                         0x178 (size before relaxing)
- .eh_frame      0x00000000000319f0       0x50 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(handle_manager.o)
+ .eh_frame      0x0000000000031a28       0x50 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(handle_manager.o)
                                         0x108 (size before relaxing)
- .eh_frame      0x0000000000031a40       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(getreent.o)
+ .eh_frame      0x0000000000031a78       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(getreent.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000031a58        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(clocks.o)
+ .eh_frame      0x0000000000031a90        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/../../../../aarch64-none-elf/lib/pic\libsysbase.a(clocks.o)
                                          0x78 (size before relaxing)
- .eh_frame      0x0000000000031a58       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic\libgcc.a(extenddftf2.o)
+ .eh_frame      0x0000000000031a90       0x20 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic\libgcc.a(extenddftf2.o)
                                          0x38 (size before relaxing)
- .eh_frame      0x0000000000031a78       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic\libgcc.a(trunctfdf2.o)
+ .eh_frame      0x0000000000031ab0       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic\libgcc.a(trunctfdf2.o)
                                          0x48 (size before relaxing)
- .eh_frame      0x0000000000031aa8       0x14 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic\libgcc.a(sfp-exceptions.o)
+ .eh_frame      0x0000000000031ae0       0x14 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic\libgcc.a(sfp-exceptions.o)
                                          0x28 (size before relaxing)
- .eh_frame      0x0000000000031abc        0x4 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crtend.o
+ .eh_frame      0x0000000000031af4        0x4 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crtend.o
  *(.eh_frame.*)
 
 .gcc_except_table
@@ -5275,92 +5274,92 @@ Linker script and memory map
 .gnu_extab
  *(.gnu_extab*)
 
-.dynamic        0x0000000000031ac0      0x160
+.dynamic        0x0000000000031af8      0x160
  *(.dynamic)
- .dynamic       0x0000000000031ac0      0x160 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
-                0x0000000000031ac0                _DYNAMIC
+ .dynamic       0x0000000000031af8      0x160 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000031af8                _DYNAMIC
 
-.dynsym         0x0000000000031c20       0x48
+.dynsym         0x0000000000031c58       0x48
  *(.dynsym)
- .dynsym        0x0000000000031c20       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .dynsym        0x0000000000031c58       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.dynstr         0x0000000000031c68        0x1
+.dynstr         0x0000000000031ca0        0x1
  *(.dynstr)
- .dynstr        0x0000000000031c68        0x1 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .dynstr        0x0000000000031ca0        0x1 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.rela.dyn       0x0000000000031c70     0x25c8
+.rela.dyn       0x0000000000031ca8     0x25c8
  *(.rela.*)
- .rela.got      0x0000000000031c70      0x6a8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
- .rela.plt      0x0000000000032318        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
- .rela.bss      0x0000000000032318        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .rela.got      0x0000000000031ca8      0x6a8 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .rela.plt      0x0000000000032350        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .rela.bss      0x0000000000032350        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.ro
-                0x0000000000032318        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032350        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.init_array
-                0x0000000000032318       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032350       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.fini_array
-                0x0000000000032330       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
- .rela.ifunc    0x0000000000032348        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032368       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .rela.ifunc    0x0000000000032380        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.defaultConsole
-                0x0000000000032348       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032380       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.local.currentConsole
-                0x0000000000032360       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032398       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.ro.local.dotab_stdout
-                0x0000000000032378       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x00000000000323b0       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.local.s_consoleSwRenderer
-                0x00000000000323a8       0x78 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x00000000000323e0       0x78 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.ro.local.fsdev_devoptab
-                0x0000000000032420      0x210 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032458      0x210 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.local._impure_ptr
-                0x0000000000032630       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032668       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.local.impure_data
-                0x0000000000032648       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000032680       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.ro.local._global_impure_ptr
-                0x0000000000032690       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x00000000000326c8       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.__malloc_av_
-                0x00000000000326a8     0x1800 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x00000000000326e0     0x1800 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.local.environ
-                0x0000000000033ea8       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000033ee0       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.__global_locale
-                0x0000000000033ec0      0x138 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000033ef8      0x138 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.ro.local._C_numeric_locale
-                0x0000000000033ff8       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000034030       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.devoptab_list
-                0x0000000000034040      0x180 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000034078      0x180 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.ro.local.dotab_stdnull
-                0x00000000000341c0       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x00000000000341f8       0x30 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
  .rela.data.rel.local.handles
-                0x00000000000341f0       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000034228       0x48 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.interp         0x0000000000034238        0xd
+.interp         0x0000000000034270        0xd
  *(.interp)
- .interp        0x0000000000034238        0xd c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .interp        0x0000000000034270        0xd c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.hash           0x0000000000034248       0x18
+.hash           0x0000000000034280       0x18
  *(.hash)
- .hash          0x0000000000034248       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .hash          0x0000000000034280       0x18 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
 .gnu.hash
  *(.gnu.hash)
 
-.gnu.version    0x0000000000034260        0x0
+.gnu.version    0x0000000000034298        0x0
  *(.gnu.version)
- .gnu.version   0x0000000000034260        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+ .gnu.version   0x0000000000034298        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.gnu.version_d  0x0000000000034260        0x0
+.gnu.version_d  0x0000000000034298        0x0
  *(.gnu.version_d)
  .gnu.version_d
-                0x0000000000034260        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000034298        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
-.gnu.version_r  0x0000000000034260        0x0
+.gnu.version_r  0x0000000000034298        0x0
  *(.gnu.version_r)
  .gnu.version_r
-                0x0000000000034260        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000034298        0x0 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
 
 .note.gnu.build-id
-                0x0000000000034260       0x24
+                0x0000000000034298       0x24
  *(.note.gnu.build-id)
  .note.gnu.build-id
-                0x0000000000034260       0x24 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
+                0x0000000000034298       0x24 c:/devkitpro_sw/devkita64/bin/../lib/gcc/aarch64-none-elf/9.2.0/pic/crti.o
                 0x0000000000035000                . = ALIGN (0x1000)
                 0x0000000000035000                __data_start = .
 

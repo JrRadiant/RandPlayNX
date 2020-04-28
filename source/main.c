@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     consoleInit(NULL);
 
     // Other initialization goes here. As a demonstration, we print hello world.
-    printf("Hello World!\n");
+    printf("Please press 'A' button to play a random game, or + to exit gracefully.\n");
 
     // Main loop
     while (appletMainLoop())

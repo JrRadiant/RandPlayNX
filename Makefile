@@ -46,7 +46,7 @@ INCLUDES	:=	include
 
 APP_TITLE   := RandPlayNX
 APP_AUTHOR  := b2626129
-APP_VERSION := 0.0.1
+APP_VERSION := 0.0.2
 
 #---------------------------------------------------------------------------------
 # options for code generation
