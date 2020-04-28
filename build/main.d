@@ -1,4 +1,4 @@
-main.o: D:/nxcode/repo/RandPlayNX/source/main.c \
+main.o: D:/nxcode/repo/randplaynx/source/main.c \
  C:/devkitPro_sw/libnx/include/switch.h \
  C:/devkitPro_sw/libnx/include/switch/types.h \
  C:/devkitPro_sw/libnx/include/switch/result.h \

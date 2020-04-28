@@ -2,9 +2,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h> 
 
 // Include the main libnx system header, for Switch development
 #include <switch.h>
+
+void printRandoms(int lower, int upper, int count) 
+{ 
+    int i; 
+    for (i = 0; i < count; i++) { 
+        int num = (rand() % 
+           (upper - lower + 1)) + lower; 
+        printf("%d ", num); 
+    } 
+} 
 
 // Main program entrypoint
 int main(int argc, char* argv[])
@@ -18,6 +29,9 @@ int main(int argc, char* argv[])
 
     // Other initialization goes here. As a demonstration, we print hello world.
     printf("Please press 'A' button to play a random game, or + to exit gracefully.\n");
+
+    int lower = 1, upper = 128, count = 1; 
+    srand(time(0)); 
 
     // Main loop
     while (appletMainLoop())
@@ -33,6 +47,8 @@ int main(int argc, char* argv[])
             break; // break in order to return to hbmenu
 
         // Your code goes here
+        if (kDown & KEY_A)
+        printRandoms(lower, upper, count); 
 
         // Update the console, sending a new frame to the display
         consoleUpdate(NULL);
