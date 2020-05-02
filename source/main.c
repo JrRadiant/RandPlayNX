@@ -16,7 +16,18 @@ void printRandoms(int lower, int upper, int count)
     for (i = 0; i < count; i++) { 
         int num = (rand() % 
            (upper - lower + 1)) + lower; 
-        printf("%d ", num); 
+        // Write out the number of the game:
+        printf("Your game is # %d", num);
+
+        // Write out the full skipped strings:
+        int horizstr = num / 6;
+        printf(", \
+                                                                at %d skipped lines", horizstr);  
+
+        // Write out the additional game number on the next string:
+        int addgam = num - horizstr * 6;
+        printf(", number \
+                                                           %d in a next row. Good luck and have fun!", addgam);  
     } 
 } 
 
@@ -29,8 +40,8 @@ int main(int argc, char* argv[])
     printf("Please press 'A' button to play a random game, or + to exit gracefully.\n");
 
     // Setting up random and the random seed:
-    int lower = 1, upper = 128, count = 1; 
-    srand(time(0)); 
+    int lower = 1, upper = 136, count = 1; 
+    srand(time(0));
 
     // Main loop
     while (appletMainLoop())
@@ -44,11 +55,13 @@ int main(int argc, char* argv[])
 
         if (kDown & KEY_PLUS)
             break; // break in order to return to hbmenu
+        if (kDown & KEY_B)
+            break; // break in order to return to hbmenu
 
         // The main code goes here
         if (kDown & KEY_A)
-        printRandoms(lower, upper, count); 
-
+        printRandoms(lower, upper, count);
+        
         // Update the console, sending a new frame to the display
         consoleUpdate(NULL);
     }
