@@ -139,7 +139,8 @@ main.o: D:/nxcode/repo/RandPlayNX/source/main.c \
  C:/devkitPro_sw/libnx/include/switch/crypto/cmac.h \
  C:/devkitPro_sw/libnx/include/switch/crypto/sha1.h \
  C:/devkitPro_sw/libnx/include/switch/crypto/hmac.h \
- C:/devkitPro_sw/libnx/include/switch/crypto/crc.h
+ C:/devkitPro_sw/libnx/include/switch/crypto/crc.h \
+ D:/nxcode/repo/RandPlayNX/source/keyboard.h
 
 C:/devkitPro_sw/libnx/include/switch.h:
 
@@ -422,3 +423,5 @@ C:/devkitPro_sw/libnx/include/switch/crypto/sha1.h:
 C:/devkitPro_sw/libnx/include/switch/crypto/hmac.h:
 
 C:/devkitPro_sw/libnx/include/switch/crypto/crc.h:
+
+D:/nxcode/repo/RandPlayNX/source/keyboard.h:

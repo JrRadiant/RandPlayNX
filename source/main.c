@@ -1,72 +1,85 @@
-// Include the most common headers from the C standard library
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <switch.h>
+
+// Custom keyboard headers, thanks to thomleg50!
+#include "keyboard.h"
 
 // Also include time.h for rand() seeding
 #include <time.h> 
 
-// Include the main libnx system header, for Switch development
-#include <switch.h>
+// Initialize calc vars:
+int result;
+float resultF;
+long int first;
+char		*swkdbout = 0;
 
-// initialize printRandoms pointer
-void printRandoms(int lower, int upper, int count) 
+// initialize printRandoms function and printing end results:
+void printRandoms() 
 { 
     int i; 
-    for (i = 0; i < count; i++) { 
+    for (i = 0; i < 1; i++) { 
         int num = (rand() % 
-           (upper - lower + 1)) + lower; 
+           (result - 1 + 1)) + 1; 
+
         // Write out the number of the game:
-        printf("Your game is # %d", num);
+        printf("Your game of the day today is # %d, \n \n", num);
 
         // Write out the full skipped strings:
-        int horizstr = num / 6;
-        printf(", \
-                                                                at %d skipped lines", horizstr);  
+        int skippedstr = num / 6;
+        printf("	right after a %d skipped lines, \n \n", skippedstr);  
 
         // Write out the additional game number on the next string:
-        int addgam = num - horizstr * 6;
-        printf(", number \
-                                                           %d in a next row. Good luck and have fun!", addgam);  
+        int addrow = num - skippedstr * 6;
+        printf("		plus %d in the next row! \n \n \n \n So, have a good luck and a great fun with it. <3 \n \n", addrow);
     } 
 } 
 
-// Main program entrypoint
+void printUI()
+{
+    // Print the user interface:
+    printf("Please press 'A' button to choose a random game, or + to exit gracefully.\n");
+}
+
 int main(int argc, char* argv[])
 {
-    consoleInit(NULL);
-
-    // Other initialization goes here. Print the user interface:
-    printf("Please press 'A' button to play a random game, or + to exit gracefully.\n");
-
-    // Setting up random and the random seed:
-    int lower = 1, upper = 136, count = 1; 
+	consoleInit(NULL);
+	userAppInit();
     srand(time(0));
 
-    // Main loop
-    while (appletMainLoop())
-    {
-        // Scan all the inputs. This should be done once for each frame
-        hidScanInput();
+	printUI();
 
-        // hidKeysDown returns information about which buttons have been
-        // just pressed in this frame compared to the previous one
-        u64 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
+	while (appletMainLoop()){
+	  
+		hidScanInput();
+
+		u64 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
+			
+		if(kDown & KEY_A)
+		{
+			swkdbout = popKeyboardf("So, how many games do you have installed?", 128);
+			first = atol(swkdbout);
+			result = first;
+			consoleClear();
+			printRandoms();
+		}
 
         if (kDown & KEY_PLUS)
-            break; // break in order to return to hbmenu
+            break; // break with + key in order to return to hbmenu
         if (kDown & KEY_B)
-            break; // break in order to return to hbmenu
+            break; // break with B key in order to return to hbmenu
 
-        // The main code goes here
-        if (kDown & KEY_A)
-        printRandoms(lower, upper, count);
-        
-        // Update the console, sending a new frame to the display
-        consoleUpdate(NULL);
-    }
+		if (kDown & KEY_MINUS)
+		{
+			consoleClear();
+			first = 0;
+			printUI();
+		}
 
-    // Deinitialize and clean up resources used by the console (important!)
-    consoleExit(NULL);
-    return 0;
+		consoleUpdate(NULL);
+	}
+
+	consoleExit(NULL);
+	return 0;
 }
