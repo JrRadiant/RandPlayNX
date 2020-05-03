@@ -94,7 +94,7 @@ int main(int argc, char* argv[])
 			printRandoms();
 			}
 			else {
-			printf("You've already count your Random Game, so please play it. :) \n \n");
+			printf("Your Random Game has already been chosen, so please play it well. :) \n \n");
 			}
 		}
 
