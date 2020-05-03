@@ -11,7 +11,7 @@ Tested with FW 10.0.2, CFW atmosphére 0.12.0.
 * So, you have 128 games installed for example. (No more than 3000 games, please. ^^)
 * Launch the app, press A.
 * Enter the total amount of your games (128).
-* Maroon is the number of horizontal lines to skip
+* Maroon is the number of horizontal lines to skip at All Games screen,
 * Yellow number is the number of the actual game to play on the next row.
 * Press B and run your game that was chosen by a Random God! ^_^ (Well, actually, it's a rand() seeded by your local timestamp.)
 
