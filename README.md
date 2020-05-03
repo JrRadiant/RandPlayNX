@@ -1,5 +1,5 @@
 # RandPlayNX
-A simple homebrew tool for NX to start a random game from your game library.
+A simple homebrew tool for NX to help you start a random game from your game library.
 Hope this time you can actually play your games without the need of a painful choice. ^___^
 
 Tested with FW 10.0.2, CFW atmosphére 0.12.0.
