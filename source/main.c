@@ -12,10 +12,10 @@
 // Initialize calc vars:
 int result;
 float resultF;
-long int first;
-char		*swkdbout = 0;
+long int gamescount;
+char *swkdbout = 0;
 
-// initialize printRandoms function and printing end results:
+// initialize general calc function and print the end results:
 void printRandoms() 
 { 
     int i; 
@@ -23,18 +23,28 @@ void printRandoms()
         int num = (rand() % 
            (result - 1 + 1)) + 1; 
 
-        // Write out the number of the game:
-        printf("Your Game of the Day today is # %d, \n \n", num);
+			if (num > 3000) {
+			printf("\033[1;31m"); //Set the warning text to the color red
+        	printf("Please use the correct number of games >_< and press '-' to continue.");
+			printf("\033[0m"); //Resets the text to default color.
+    		}
+			else {
+        // Write out the choosen number of the game:
+        printf("Your Game of the Day today is #");
+		printf("\033[1;34m"); //Set the text to the color bold-blue
+        printf("%d", num);
+		printf("\033[0m"); 
+		printf(", \n \n");
 
-        // Write out the full skipped strings:
+        // Write out the numbers of the full skipped strings:
         int skippedstr = num / 6;
-        printf("	right after a");
+        printf("	right after");
 		printf("\033[1;35m"); //Set the text to the color bold-cyan
 		printf(" %d ", skippedstr);  
-		printf("\033[0m"); //Resets the text to default color.
+		printf("\033[0m");
 		printf("skipped lines, \n \n");  
 
-        // Write out the additional game number on the next string:
+        // Write out the additional game number added to the next row:
         int addrow = num - skippedstr * 6;
         printf("		plus");
 		printf("\033[1;33m"); //Set the text to the color bold-yellow
@@ -44,12 +54,13 @@ void printRandoms()
 		printf("\033[1;32m");  //Set the text to the color bold-green
         printf("Good luck and have a great fun!.. <3 \n \n");
 		printf("\033[0m"); 
+		}
     } 
 } 
 
+// Print the greetings message:
 void printUI()
 {
-    // Print the welcome greetings:
     printf("\n Please press 'A' button to choose a");
 	printf("\033[1;34m"); //Set the text to the color bold-blue
 	printf(" random game");
@@ -73,9 +84,9 @@ int main(int argc, char* argv[])
 			
 		if(kDown & KEY_A)
 		{
-			swkdbout = popKeyboardf("So, how many games do you have installed?", 128);
-			first = atol(swkdbout);
-			result = first;
+			swkdbout = popKeyboardf("So, how many games do you have installed?", 256);
+			gamescount = atol(swkdbout);
+			result = gamescount;
 			consoleClear();
 			printRandoms();
 		}
@@ -88,7 +99,7 @@ int main(int argc, char* argv[])
 		if (kDown & KEY_MINUS)
 		{
 			consoleClear();
-			first = 0;
+			gamescount = 0;
 			printUI();
 		}
 
