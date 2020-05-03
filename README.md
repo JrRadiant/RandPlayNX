@@ -13,7 +13,7 @@ Tested with FW 10.0.2, CFW atmosphére 0.12.0.
 * Enter the total amount of your games (128).
 * Maroon is the number of horizontal lines to skip
 * Yellow number is the number of the actual game to play on the next row.
-* Press B and run your game that was choosen by a Random God! ^_^ (Well, actually, it's a rand() seeded by your local timestamp.)
+* Press B and run your game that was chosen by a Random God! ^_^ (Well, actually, it's a rand() seeded by your local timestamp.)
 
 Support thread on GBAtemp: https://gbatemp.net/threads/randplaynx-a-cute-little-tool-to-help-you-random-choose-your-game-to-play.564209/
 
