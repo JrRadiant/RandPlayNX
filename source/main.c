@@ -93,7 +93,7 @@ int main(int argc, char* argv[])
 			printRandoms();
 			}
 			else {
-			printf("Your Random Game has already been chosen, so please play it well. :) \n \n");
+			printf("\n Your Random Game has already been chosen, so please play it well. :) \n \n");
 			}
 		}
 
