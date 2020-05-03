@@ -9,7 +9,7 @@ Tested with FW 10.0.2, CFW atmosphére 0.12.0.
 ## How to use:
 * First of all, count all your games in your Switch library. You can do it faster by counting lines at the All Games screen first, then multiple it by 6 and add the additional X<6 if needed.
 * So, you have 128 games installed for example. (No more than 3000 games, please. ^^)
-* Then launch the app, press A.
+* Launch the app, press A.
 * Enter the number your of games (128).
 * Maroon is a number of horizontal lines to skip
 * Yellow number is the number of actual game to play on the next row.
