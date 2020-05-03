@@ -9,7 +9,7 @@
 // Also include time.h for rand() seeding
 #include <time.h> 
 
-// Initialize calc vars, counter for prevent doulbe computing the game:
+// Initialize calc vars, counter for prevent double computing the game:
 int result, doublecounter;
 long int gamescount;
 char *swkdbout = 0;
