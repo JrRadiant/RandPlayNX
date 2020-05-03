@@ -11,7 +11,6 @@
 
 // Initialize calc vars, counter for prevent doulbe computing the game:
 int result, doublecounter;
-float resultF;
 long int gamescount;
 char *swkdbout = 0;
 
