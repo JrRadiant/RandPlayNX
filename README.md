@@ -7,13 +7,13 @@ Tested with FW 10.0.2, CFW atmosphére 0.12.0.
 ![screenshot-0.0.7](https://github.com/JrRadiant/RandPlayNX/blob/master/screenshots/randnxplay_0.0.7.jpg)
 
 ## How to use:
-* First of all, count all your games at your Switch library. You can do it faster by counting lines at the All Games screen first, then multiple it by 6 and adding the additional X<6 if needed.
+* First of all, count all your games at your Switch library. You can do it faster by counting lines at the All Games screen first, then multiple it by 6, adding the additional X<6 games if needed.
 * So, you have 128 games installed for example. (No more than 3000 games, please. ^^)
 * Launch the app, press A.
 * Enter the total amount of your games (128).
 * Maroon is the number of horizontal lines to skip
 * Yellow number is the number of the actual game to play on the next row.
-* Press B and run your game that was choosen by a Random God! ^_^ (Well, actually, it's a rand() seeded by your local timestamp.)
+* Press B and run your game that was chosen by a Random God! ^_^ (Well, actually, it's a rand() seeded by your local timestamp.)
 
 Support thread on GBAtemp: https://gbatemp.net/threads/randplaynx-a-cute-little-tool-to-help-you-random-choose-your-game-to-play.564209/
 
