@@ -9,8 +9,8 @@
 // Also include time.h for rand() seeding
 #include <time.h> 
 
-// Initialize calc vars:
-int result;
+// Initialize calc vars, counter for prevent doulbe computing the game:
+int result, doublecounter;
 float resultF;
 long int gamescount;
 char *swkdbout = 0;
@@ -29,6 +29,7 @@ void printRandoms()
 			printf("\033[0m"); //Resets the text to default color.
     		}
 			else {
+		doublecounter = 1;
         // Write out the choosen number of the game:
         printf("Your Game of the Day today is #");
 		printf("\033[1;34m"); //Set the text to the color bold-blue
@@ -73,6 +74,7 @@ int main(int argc, char* argv[])
 	consoleInit(NULL);
 	userAppInit();
     srand(time(0));
+	doublecounter = 0;
 
 	printUI();
 
@@ -84,11 +86,16 @@ int main(int argc, char* argv[])
 			
 		if(kDown & KEY_A)
 		{
+			if (doublecounter < 1) {
 			swkdbout = popKeyboardf("So, how many games do you have installed?", 256);
 			gamescount = atol(swkdbout);
 			result = gamescount;
 			consoleClear();
 			printRandoms();
+			}
+			else {
+			printf("You've already count your Random Game, so please play it. :) \n \n");
+			}
 		}
 
         if (kDown & KEY_PLUS)
