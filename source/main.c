@@ -22,7 +22,7 @@ void printRandoms()
         int num = (rand() % 
            (result - 1 + 1)) + 1; 
 
-			if (num > 3000) {
+			if (gamescount > 3000) {
 			printf("\033[1;31m"); //Set the warning text to the color red
         	printf("Please use the correct number of games >_< and press '-' to continue.");
 			printf("\033[0m"); //Resets the text to default color.
