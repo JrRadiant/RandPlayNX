@@ -19,6 +19,6 @@ You can use nsp forwarder from here (base64-encoded): aHR0cHM6Ly9hbm9uZmlsZS5jb2
 
 Feel free to drop by!
 
-PS: if you like it, you can support me with ETH: [0xaf2daed7bf7dba8e4acb9080a7c795b9a458f5cd](https://etherscan.io/address/0xaf2daed7bf7dba8e4acb9080a7c795b9a458f5cd)
+PS: if you like it, you can support me with ETH here: [0xaf2daed7bf7dba8e4acb9080a7c795b9a458f5cd](https://etherscan.io/address/0xaf2daed7bf7dba8e4acb9080a7c795b9a458f5cd)
 
 Thank you for your time.
