@@ -15,6 +15,8 @@ Tested with FW 10.0.2, CFW atmosphére 0.12.0.
 * Yellow number is the number of the actual game to play on the next row.
 * Press B and run your game that was choosen by a Random God! ^_^ (Well, actually, it's a rand() seeded by your local timestamp.)
 
+Support thread on GBAtemp: https://gbatemp.net/threads/randplaynx-a-cute-little-tool-to-help-you-random-choose-your-game-to-play.564209/
+
 You can use nsp forwarder from here (base64-encoded): aHR0cHM6Ly9hbm9uZmlsZS5jb20vVGYyOG9kdWZvNy9SYW5kUGxheU5YXzA1MTY5ODZFQzQwMjAwMDBfbnNw
 
 Feel free to drop by!
